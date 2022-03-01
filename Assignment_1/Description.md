@@ -1,6 +1,6 @@
-# Assignment 1 : Dafny
+# Assignment 1 : Dafny Introduction
 
-Dafny is a language which supports formal specification through preconditions, postconditions, loop invariants and loop variants. A program/method is considered verified if the compiler can prove what changes are made through the conditions.
+[Explaination of Dafny language](/Dafny.md).
 
 ## Question 1
 
