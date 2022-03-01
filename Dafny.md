@@ -4,9 +4,20 @@ Dafny is a language which supports formal specification through pre-conditions, 
 
 For example:
 
-    method Add(a : int, b : int) returns (c : int)
-    ensures c == a + b
+    function Positive(a : int) : int
     {
-        c := a + b;
+        if a < 0 then -a
+        else a
     }
-Method *Add* returns the addition of the two parameters and proves this by including the post-condition *ensures c == a + b*.
+
+    lemma check(a : int)
+        ensures Positive(a) >= 0
+        ensures if a < 0 then Positive(a) == -a else Positive(a) == a
+        ensures if a < 0 then Positive(a) != a else Positive(a) == a
+        ensures if a == 0 then Positive(a) == 0 else Positive(a) > 0
+        {}
+Method *Positive* returns the positive version of the given integer. The lemma *check* confirms that it performs the expected task:
+- Checks that the result is always positive
+- Checks that if the integer is negative its positive value is returned
+- Checks that if the integer is negative the returned value is not the same as the integer
+- Checks that if the integer is 0, the returned value is 0
