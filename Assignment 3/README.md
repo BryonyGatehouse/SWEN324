@@ -1,7 +1,5 @@
 # Assignment 3 : Verifying Programs
 
-[Explaination of Dafny](/Dafny.md).
-
 This assignment is about verifying programs.
 
 ## Question 1
