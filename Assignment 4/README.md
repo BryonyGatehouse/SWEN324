@@ -1,7 +1,5 @@
 # Assignment 4 : Reasoning about Systems
 
-[Explanation of Dafny](/Dafny.md)
-
 This assignment focuses on demonstrating and reasoning about the verification of systems in Dafny.
 
 ## Question 1
