@@ -12,7 +12,7 @@ Students who pass this course will be able to:
 
 ### Assessment
 
-[An explaination of the Dafny language](/Dafny.md).
+An [explaination](/Dafny.md) of the Dafny language.
 
 - Weekly Overview Questions (based on the content learnt)
 - [Assignment 1](Assignment%201)
