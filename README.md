@@ -15,7 +15,7 @@ Students who pass this course will be able to:
 An [explaination](/Dafny.md) of the Dafny language.
 
 - Weekly Overview Questions (based on the content learnt)
-- [Assignment 1](Assignment%201)
-- [Assignment 2](Assignment%201)
-- [Assignment 3](Assignment%203)
-- [Assignment 4](Assignment%204)
+- [Assignment 1 : Dafny Introduction](Assignment%201)
+- [Assignment 2 : Specifying Programs](Assignment%201)
+- [Assignment 3 : Verifying Programs](Assignment%203)
+- [Assignment 4 : Reasoning about Systems](Assignment%204)
