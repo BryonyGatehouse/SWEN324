@@ -1,6 +1,6 @@
 # Assignment 2 : Specifying Programs
 
-[Explaination of Dafny](/Dafny.md). All resulting methods need to verify. Additional lemmas might be included.
+All resulting methods need to verify. Additional lemmas might be included.
 
 ## Question 1
 
