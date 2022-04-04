@@ -1,7 +1,5 @@
 # Assignment 1 : Dafny Introduction
 
-[Explaination of Dafny language](/Dafny.md).
-
 ## Question 1
 
 Create a program that takes two arrays of *int*s and returns a new array that is their vector sum. Pre- and Post- conditions should describe the full behaviour of the method. 
